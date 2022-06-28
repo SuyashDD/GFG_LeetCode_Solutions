@@ -21,14 +21,12 @@ transform(s.begin() , s.end() , s.begin() , :: toupper);
 
 **Substring** - a substring must be contiguos characters in a string
 
-eg. string = "ABC"
-
+eg. string = "ABC" ...
 Substings = {"", A , B , AB , BC , ABC}
 
 **Subsequence** - a subsequence is a subset of string but the characters must be in the same sequence as present in parent string
 
-e.g string = "ABC"
-
+e.g string = "ABC" ...
 Subsequences = {"" , A , B , C , AB , BC , AC , ABC }
 
 *Note 1* - AC is a subsequence but not a substring
