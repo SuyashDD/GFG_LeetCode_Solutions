@@ -1,4 +1,4 @@
-###transform single char to lowercase or uppercase
+### transform single char to lowercase or uppercase
 
 string s = "ABCADdssf";
 for(auto c: s)
@@ -8,7 +8,7 @@ for(auto c: s)
 }
 
 
-###Transform whole string to lowercase or uppercase
+### Transform whole string to lowercase or uppercase
 string s = "ABSDA";
 
 transform(s.begin() , s.end() , s.begin() , :: tolower);
