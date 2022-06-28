@@ -28,6 +28,7 @@ Substings = {"", A , B , AB , BC , ABC}
 e.g string = "ABC"
 Subsequences = {"" , A , B , C , AB , BC , AC , ABC }
 
-*Note here* - AC is a subsequence but not a substring
-*Also note that* - CA CB BA CBA are neither substrings nor subsequences
+*Note 1* - AC is a subsequence but not a substring
+
+*Note 2* - CA CB BA CBA are neither substrings nor subsequences
 
