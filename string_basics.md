@@ -1,4 +1,4 @@
-### transform single char to lowercase or uppercase
+### Transform single char to lowercase or uppercase
 
 string s = "ABCADdssf";
 for(auto c: s)
@@ -14,3 +14,4 @@ string s = "ABSDA";
 transform(s.begin() , s.end() , s.begin() , :: tolower);
 transform(s.begin() , s.end() , s.begin() , :: toupper);
 
+### C++ subsequence vs substring
