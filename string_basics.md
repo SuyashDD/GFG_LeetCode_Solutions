@@ -28,7 +28,7 @@ Substings = {"", A , B , AB , BC , ABC}
 
 e.g string = "ABC"...
 Subsequences = {"" , A , B , C , AB , BC , AC , ABC }
-Total = 2^n
+ **Total = 2^n**
 
 *Note 1* - AC is a subsequence but not a substring
 
