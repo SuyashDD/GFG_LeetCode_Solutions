@@ -25,6 +25,7 @@ eg. string = "ABC"
 Substings = {"", A , B , AB , BC , ABC}
 
 **Subsequence** - a subsequence is a subset of string but the characters must be in the same sequence as present in parent string
+
 e.g string = "ABC"
 Subsequences = {"" , A , B , C , AB , BC , AC , ABC }
 
