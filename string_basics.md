@@ -1,13 +1,13 @@
 ### 1. Transform single char to lowercase or uppercase
 
-''' c++
+``` C++
 string s = "ABCADdssf";
 for(auto c: s)
 {
   c = tolower(c); // need to assign the result 
   c = toupper(c);
 }
-'''
+```
 
 ### 2. Transform whole string to lowercase or uppercase
 string s = "ABSDA";
