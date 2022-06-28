@@ -19,14 +19,15 @@ transform(s.begin() , s.end() , s.begin() , :: toupper);
 ---
 ### 3. C++ subsequence vs substring
 
-**substring** - a substring must be contiguos characters in a string
+**Substring** - a substring must be contiguos characters in a string
+
 eg. string = "ABC"
-substings = {"", A , B , AB , BC , ABC}
+Substings = {"", A , B , AB , BC , ABC}
 
-**subsequence** - a subsequence is a subset of string but the characters must be in the same sequence as present in parent string
+**Subsequence** - a subsequence is a subset of string but the characters must be in the same sequence as present in parent string
 e.g string = "ABC"
-subsequences = {"" , A , B , C , AB , BC , AC , ABC }
+Subsequences = {"" , A , B , C , AB , BC , AC , ABC }
 
-Note here - AC is a subsequence but not a substring
-Also note that - CA CB BA CBA are neither substrings nor subsequences
+*Note here* - AC is a subsequence but not a substring
+*Also note that* - CA CB BA CBA are neither substrings nor subsequences
 
